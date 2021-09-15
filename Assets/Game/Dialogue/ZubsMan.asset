@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6990827164138979123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: a8bd0bcd-0a2b-495e-a312-d9b4c2d6a730
+  m_EditorClassIdentifier: 
+  text: That guy has the coolest feelers on his face.
+  children:
+  - b5525cad-747f-42f2-b09b-4a93d8eeeeb8
+  rect:
+    serializedVersion: 2
+    x: 19
+    y: 98
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: ZubsMan
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6990827164138979123}
+  - {fileID: 3672037825775947964}
+  - {fileID: 2515392661276552622}
+  newNodeOffset: {x: 220, y: 0}
+--- !u!114 &2515392661276552622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: d033cbc2-899f-4fdb-8968-df10b2b22000
+  m_EditorClassIdentifier: 
+  text: I guess he's cute? Maybe? ...I'm just so curious...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 465
+    y: 107
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+--- !u!114 &3672037825775947964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b5525cad-747f-42f2-b09b-4a93d8eeeeb8
+  m_EditorClassIdentifier: 
+  text: 'I heard good things about those and... human sensitive areas. '
+  children:
+  - d033cbc2-899f-4fdb-8968-df10b2b22000
+  rect:
+    serializedVersion: 2
+    x: 239
+    y: 98
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0

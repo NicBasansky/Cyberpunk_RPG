@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8916809960812313476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 5abff05d-f926-406c-a257-b230b2ab28b6
+  m_EditorClassIdentifier: 
+  text: But have I seen anything suspicious? Not really.
+  children:
+  - 26fbdf2f-83f0-4f53-a409-7af4a6230e42
+  rect:
+    serializedVersion: 2
+    x: 975
+    y: 465
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-8770549708082377061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 4a6795f3-1a11-494a-bca6-f0ad4053c374
+  m_EditorClassIdentifier: 
+  text: Hey.
+  children:
+  - 6ff80b18-fa03-4de5-a68e-cf98aa2b9b3a
+  - 5ef8c6da-2135-4e54-a8a5-81579c7685c2
+  - 423f5d60-3d29-46c5-9f81-ea22515534d8
+  rect:
+    serializedVersion: 2
+    x: 19
+    y: 105
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6867848072404998721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: bc4c3305-f8dd-4e86-88c9-e4b12eab6a1a
+  m_EditorClassIdentifier: 
+  text: Funny thing to ask a meat merchant.
+  children:
+  - 53b244d5-ae48-4513-9898-1acf85812c0a
+  rect:
+    serializedVersion: 2
+    x: 561
+    y: 323
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6323320570455940714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 054e5666-b575-4c6a-bc9a-02334e1493c6
+  m_EditorClassIdentifier: 
+  text: 'Meh. Can''t complain. '
+  children:
+  - f8ef4985-6844-4b0b-af1d-35e0e4e0ca5b
+  rect:
+    serializedVersion: 2
+    x: 530
+    y: 114
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5147301025966513054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 6ff80b18-fa03-4de5-a68e-cf98aa2b9b3a
+  m_EditorClassIdentifier: 
+  text: 'Hey. How''s business? '
+  children:
+  - 7a5da3fd-df60-4a3c-abcb-b64a0f15095a
+  - 054e5666-b575-4c6a-bc9a-02334e1493c6
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 51
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Hey.
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-4968547350255255977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 423f5d60-3d29-46c5-9f81-ea22515534d8
+  m_EditorClassIdentifier: 
+  text: I'm helping Mrs. Noodle. Have you seen anything sus?
+  children:
+  - 778c0ff9-2f4a-42be-a8a0-a17192b583ee
+  rect:
+    serializedVersion: 2
+    x: 334
+    y: 469
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Hey.
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Noodle Bandits
+        negate: 0
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-4527870129741481011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 5ef8c6da-2135-4e54-a8a5-81579c7685c2
+  m_EditorClassIdentifier: 
+  text: Got any work?
+  children:
+  - 53b244d5-ae48-4513-9898-1acf85812c0a
+  - bc4c3305-f8dd-4e86-88c9-e4b12eab6a1a
+  rect:
+    serializedVersion: 2
+    x: 317
+    y: 272
+    width: 200
+    height: 152.23
+  isPlayerSpeaking: 1
+  simpleQuestion: Hey.
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1029803596341434219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 7a5da3fd-df60-4a3c-abcb-b64a0f15095a
+  m_EditorClassIdentifier: 
+  text: 'Alright I guess. '
+  children:
+  - f8ef4985-6844-4b0b-af1d-35e0e4e0ca5b
+  rect:
+    serializedVersion: 2
+    x: 529
+    y: 3
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: MeatVendor
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8770549708082377061}
+  - {fileID: -5147301025966513054}
+  - {fileID: -4527870129741481011}
+  - {fileID: -1029803596341434219}
+  - {fileID: -6323320570455940714}
+  - {fileID: 3566756269924546641}
+  - {fileID: 5895610274171212126}
+  - {fileID: -4968547350255255977}
+  - {fileID: -6867848072404998721}
+  - {fileID: 395966997342074727}
+  - {fileID: 8010182547404088841}
+  - {fileID: -8916809960812313476}
+  - {fileID: 8392490070975172119}
+  newNodeOffset: {x: 220, y: -40}
+--- !u!114 &395966997342074727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 778c0ff9-2f4a-42be-a8a0-a17192b583ee
+  m_EditorClassIdentifier: 
+  text: Mrs. Noodle. Oh I get it. She invited you to one of her exclusive noodle
+    parties, didn't she?
+  children:
+  - cf555bc1-e613-4673-8442-0be4a1b351b7
+  rect:
+    serializedVersion: 2
+    x: 564
+    y: 470
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &3566756269924546641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: f8ef4985-6844-4b0b-af1d-35e0e4e0ca5b
+  m_EditorClassIdentifier: 
+  text: Can't ask for much when I'm selling raw meat on the street.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 812
+    y: 46
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &5895610274171212126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 53b244d5-ae48-4513-9898-1acf85812c0a
+  m_EditorClassIdentifier: 
+  text: No, no work here. Someone else might appreciate it though.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 804
+    y: 239
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &8010182547404088841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: cf555bc1-e613-4673-8442-0be4a1b351b7
+  m_EditorClassIdentifier: 
+  text: 'You''re wanting to get in on the action, right lass? I know the feeling. '
+  children:
+  - 5abff05d-f926-406c-a257-b230b2ab28b6
+  rect:
+    serializedVersion: 2
+    x: 771
+    y: 468
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &8392490070975172119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 26fbdf2f-83f0-4f53-a409-7af4a6230e42
+  m_EditorClassIdentifier: 
+  text: Try asking one of the guys across the square. They might be more in the know.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1178
+    y: 465
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6093878057752483109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: c2f0b450-1754-409b-9e13-54cc593c78ee
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 626
+    y: 21
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6029757634793677302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 2a854b7f-afb0-45e1-b01d-018fa3e89ee9
+  m_EditorClassIdentifier: 
+  text: 
+  children:
+  - c2f0b450-1754-409b-9e13-54cc593c78ee
+  rect:
+    serializedVersion: 2
+    x: 379
+    y: 41
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-964554402892137567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 54872979-a41a-4e4d-afe6-75c5c90030ea
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 371
+    y: 174
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8022363110352137019}
+  - {fileID: -964554402892137567}
+  - {fileID: -6029757634793677302}
+  - {fileID: -6093878057752483109}
+  newNodeOffset: {x: 220, y: 0}
+--- !u!114 &8022363110352137019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: f329d487-3b7e-44b9-906a-55bace966913
+  m_EditorClassIdentifier: 
+  text: lkefsjglf
+  children:
+  - 54872979-a41a-4e4d-afe6-75c5c90030ea
+  - 2a854b7f-afb0-45e1-b01d-018fa3e89ee9
+  rect:
+    serializedVersion: 2
+    x: 87
+    y: 103
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0

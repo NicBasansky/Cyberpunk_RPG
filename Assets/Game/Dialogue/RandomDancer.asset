@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3505772809621532317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: c1999b0d-e7d0-44e0-8a95-141d35559ef4
+  m_EditorClassIdentifier: 
+  text: ...Uhh, can I help you?
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 460
+    y: 109
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: RandomDancer
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3277549777373504972}
+  - {fileID: 4872960468303301362}
+  - {fileID: -3505772809621532317}
+  newNodeOffset: {x: 220, y: 0}
+--- !u!114 &3277549777373504972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 9e74bfbe-edc9-400a-ba6b-c939f402e26b
+  m_EditorClassIdentifier: 
+  text: 'Mm! Yeah! Boots ''n'' cats ''n'' boots ''n'' cats ''n... '
+  children:
+  - 755fdd4e-bef1-4b53-a30a-776b41a25dc7
+  rect:
+    serializedVersion: 2
+    x: 20
+    y: 109
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+--- !u!114 &4872960468303301362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 755fdd4e-bef1-4b53-a30a-776b41a25dc7
+  m_EditorClassIdentifier: 
+  text: Oh yeah.. here comes the drop... nearly there... so goooood...
+  children:
+  - c1999b0d-e7d0-44e0-8a95-141d35559ef4
+  rect:
+    serializedVersion: 2
+    x: 251
+    y: 113
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0

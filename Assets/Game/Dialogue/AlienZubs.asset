@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6675948201000431100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 9866ae2b-f9f7-403f-ad6e-5aab2cdf01e5
+  m_EditorClassIdentifier: 
+  text: Yes, I have antenae. Trust me, they feel better than they look.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 488
+    y: 177
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1181202142949988865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: bde5229e-cbe3-4628-9e5d-a7ebf3c666bc
+  m_EditorClassIdentifier: 
+  text: Hey.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 489
+    y: 62
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: AlienZubs
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7045525837655587342}
+  - {fileID: 4893283070769880453}
+  - {fileID: 7238679703980028531}
+  - {fileID: 6197566532769638990}
+  - {fileID: -1181202142949988865}
+  - {fileID: -6675948201000431100}
+  - {fileID: 2452045876841688258}
+  newNodeOffset: {x: 220, y: 0}
+--- !u!114 &2452045876841688258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 82e3bed5-045e-4227-9c68-d0957d11a681
+  m_EditorClassIdentifier: 
+  text: You could buy that boy a drink for me if you're feeling generous.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 486
+    y: 292
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &4893283070769880453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b5df5b41-b4ea-430a-89d8-64c6fb9aace0
+  m_EditorClassIdentifier: 
+  text: 'Hi. '
+  children:
+  - bde5229e-cbe3-4628-9e5d-a7ebf3c666bc
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 62
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Yes?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &6197566532769638990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b67d9a9b-a191-4607-979b-2ca57dad9fba
+  m_EditorClassIdentifier: 
+  text: Need anything?
+  children:
+  - 82e3bed5-045e-4227-9c68-d0957d11a681
+  rect:
+    serializedVersion: 2
+    x: 266
+    y: 292
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Yes?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &7045525837655587342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 95e91ea5-f900-47e0-b5f1-e0392a625375
+  m_EditorClassIdentifier: 
+  text: Yes?
+  children:
+  - b5df5b41-b4ea-430a-89d8-64c6fb9aace0
+  - fe3b9767-e05f-4c8b-abfd-a92d4e9a7b4b
+  - b67d9a9b-a191-4607-979b-2ca57dad9fba
+  rect:
+    serializedVersion: 2
+    x: 29
+    y: 128
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &7238679703980028531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: fe3b9767-e05f-4c8b-abfd-a92d4e9a7b4b
+  m_EditorClassIdentifier: 
+  text: So... Your head...
+  children:
+  - 9866ae2b-f9f7-403f-ad6e-5aab2cdf01e5
+  rect:
+    serializedVersion: 2
+    x: 268
+    y: 177
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Yes?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0

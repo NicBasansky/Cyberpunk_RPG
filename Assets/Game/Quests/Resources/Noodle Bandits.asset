@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246a422f8f9d5924bb3ec6ee40466058, type: 3}
+  m_Name: Noodle Bandits
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: 1
+    description: Find clues about the Noodle Bandits and their whereabouts
+  - reference: 2
+    description: Find the Noodle Bandit
+  - reference: 3
+    description: Return to the market Noodle Bar with information
+  rewards:
+  - number: 10
+    item: {fileID: 11400000, guid: 9f14d3ff2f0519b4ea92261abb2854b8, type: 2}

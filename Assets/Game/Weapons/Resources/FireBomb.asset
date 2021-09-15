@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ec6a3855d0589499acc7f1e4c9519b, type: 3}
+  m_Name: FireBomb
+  m_EditorClassIdentifier: 
+  itemID: 0d8954d5-d23d-4530-b19e-c55111027649
+  displayName: Fire Bomb
+  description: Explodes on impact
+  icon: {fileID: 21300000, guid: 29f51100ec4b01740a7cc6fc9b21a399, type: 3}
+  pickup: {fileID: 2385997641148237891, guid: cd897a08aff97d8469a4bbf0dea020de, type: 3}
+  stackable: 1
+  allowedEquipLocation: 5
+  equippedWeaponPrefab: {fileID: 7637800586507742492, guid: 11224582a48826747bfb3dd03c2da131, type: 3}
+  animatorOverride: {fileID: 22100000, guid: f3df4d3dc54808743b6ff96c4ebdd008, type: 2}
+  projectile: {fileID: 2748648513088909574, guid: 0c2cd927ce5dae1468faed426f8ff8e5, type: 3}
+  damage: 10
+  percentageBonus: 0
+  weaponRange: 6
+  isRightHanded: 1
+  weaponIsABow: 0

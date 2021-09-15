@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ec6a3855d0589499acc7f1e4c9519b, type: 3}
+  m_Name: PlasmaBowRed
+  m_EditorClassIdentifier: 
+  itemID: 085c5d4a-5821-418d-81cb-d14b037f1180
+  displayName: Red Plasma Bow
+  description: Shoots a homing plasma tipped projectile
+  icon: {fileID: 21300000, guid: eb672ef344c1c82419b8de56f6204ce8, type: 3}
+  pickup: {fileID: 8027372121789698493, guid: 891a4289370c4734abb855efe19da6a5, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  equippedWeaponPrefab: {fileID: 8151224661254610430, guid: 3b2c6763ce7d94d4484fc1c6518f1e68,
+    type: 3}
+  animatorOverride: {fileID: 22100000, guid: 81269c640f1f0e347bfd720ed7a3e3ea, type: 2}
+  projectile: {fileID: 2328061554597122991, guid: 47ea779157c23854cbb325fefc6e3cc3,
+    type: 3}
+  damage: 6
+  percentageBonus: 0
+  weaponRange: 8
+  isRightHanded: 0
+  weaponIsABow: 1

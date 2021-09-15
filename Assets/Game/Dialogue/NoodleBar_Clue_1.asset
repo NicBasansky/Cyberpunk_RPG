@@ -1,0 +1,1160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8612278964016529156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: d53914dc-7670-4d09-891e-f44c8bced096
+  m_EditorClassIdentifier: 
+  text: Thanks.
+  children:
+  - 645588f7-bfb6-4ba8-a5b5-497650ee1fef
+  rect:
+    serializedVersion: 2
+    x: 1996
+    y: 571
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: I don't follow him that far.
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-8332566774150878616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 7ab6b1f8-3cc9-4b27-a069-fa4e2bdb1126
+  m_EditorClassIdentifier: 
+  text: But I get free grub whenever that guy walks by so I don't complain.
+  children:
+  - 8fb8eecc-cdc5-4879-a676-0d1c3b21f8c6
+  - eff91548-9154-4f7d-9af6-ad55613605fd
+  rect:
+    serializedVersion: 2
+    x: 1317
+    y: 605
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: ClearObjective
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-8094041020437816274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 14e37c8f-b64f-4728-84f1-1ba4f3e2143d
+  m_EditorClassIdentifier: 
+  text: No.
+  children:
+  - b09aff2c-a815-4ae7-8950-b55215a3da42
+  rect:
+    serializedVersion: 2
+    x: 1603
+    y: 278
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Please?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-8050876577900590020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 3536dd8a-2a71-4248-bb40-e42f0da7c7ff
+  m_EditorClassIdentifier: 
+  text: Give money (25 credits)
+  children:
+  - 36bd8436-4800-45d5-9a02-4e8266bb9c7d
+  rect:
+    serializedVersion: 2
+    x: 1605
+    y: 171
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Please?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-7944722202064537981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 3f489fd3-ae9e-4c94-82c3-cbdcf65583d7
+  m_EditorClassIdentifier: 
+  text: Noodles! Still hot too!
+  children:
+  - 36bd8436-4800-45d5-9a02-4e8266bb9c7d
+  rect:
+    serializedVersion: 2
+    x: 935
+    y: 266
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: RemoveItem
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-7908022833678544127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: fedb2799-d683-442f-8473-41ed92012cff
+  m_EditorClassIdentifier: 
+  text: Give money (15 credits)
+  children:
+  - 36bd8436-4800-45d5-9a02-4e8266bb9c7d
+  rect:
+    serializedVersion: 2
+    x: 1161
+    y: 102
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Have more?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-7406878228595528193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: eff91548-9154-4f7d-9af6-ad55613605fd
+  m_EditorClassIdentifier: 
+  text: Any idea of where to find him?
+  children:
+  - dbf31bbe-c09c-4335-8ef8-394fa05183be
+  rect:
+    serializedVersion: 2
+    x: 1556
+    y: 650
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-7391695914623009025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 24eda8eb-45a9-4463-b63e-4a4da8d28a54
+  m_EditorClassIdentifier: 
+  text: 'Yeah I saw someone looking pretty sus in the area. '
+  children:
+  - c357d50a-7a63-4855-a531-accb0127ad36
+  rect:
+    serializedVersion: 2
+    x: 685
+    y: 622
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: Befriended
+        parameters:
+        - 
+        negate: 0
+  requiresFriendshipCheck: 1
+  requiresFriendship: 1
+  isOpeningShop: 0
+--- !u!114 &-6447850033751097777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b23e6c8e-1920-45c2-94f8-1948c2ededfb
+  m_EditorClassIdentifier: 
+  text: Thanks. Do you have any more?
+  children:
+  - fedb2799-d683-442f-8473-41ed92012cff
+  - 4346c39d-2576-44c2-8198-f2ee0ce5288e
+  rect:
+    serializedVersion: 2
+    x: 939
+    y: 138
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6413881689398391685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 9cb9cb7e-fedb-4356-a1b9-55c15b228950
+  m_EditorClassIdentifier: 
+  text: And noodle boxes kept falling out of his bag! Weird thing to put in a bag
+    if you ask me.
+  children:
+  - 7ab6b1f8-3cc9-4b27-a069-fa4e2bdb1126
+  rect:
+    serializedVersion: 2
+    x: 1102
+    y: 609
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6293368589185701950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 8227f91d-1c70-4901-a687-ad2f0ca30a31
+  m_EditorClassIdentifier: 
+  text: Hrm?
+  children:
+  - 75c3c929-308e-4ab6-aa43-02c64ac4eb1c
+  - 24f0dd43-0edb-427b-a63e-4744c54bf8e0
+  - c14e26bf-c344-4b67-b08a-99e4d27cfa48
+  rect:
+    serializedVersion: 2
+    x: 40
+    y: 113
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-6061999766728860010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 541a246a-8ff9-46c1-b579-60a81ddacc51
+  m_EditorClassIdentifier: 
+  text: Well only a little bit. Free food man! See if you can find a trail of food
+    or something.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2215
+    y: 654
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5952635035312589028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 645588f7-bfb6-4ba8-a5b5-497650ee1fef
+  m_EditorClassIdentifier: 
+  text: Yup.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2333
+    y: 492
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5944280734596374087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 4346c39d-2576-44c2-8198-f2ee0ce5288e
+  m_EditorClassIdentifier: 
+  text: You're pushing it.
+  children:
+  - f486890a-07d4-4d0e-bbf5-9ffce1032259
+  rect:
+    serializedVersion: 2
+    x: 1162
+    y: 211
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Have more?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5603083989095813432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 099a46ac-ec71-45de-9c40-7b09db258b58
+  m_EditorClassIdentifier: 
+  text: I'll see what I can do.
+  children:
+  - 459ccef2-1767-40ac-9803-bfbb23316dd6
+  rect:
+    serializedVersion: 2
+    x: 731
+    y: 380
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Anything to spare?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5214982161287260631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 459ccef2-1767-40ac-9803-bfbb23316dd6
+  m_EditorClassIdentifier: 
+  text: Thanks.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 957
+    y: 385
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5210886455286073708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 79592ce3-f3bb-4a66-98be-f63dd67c299f
+  m_EditorClassIdentifier: 
+  text: You follow him?
+  children:
+  - 541a246a-8ff9-46c1-b579-60a81ddacc51
+  rect:
+    serializedVersion: 2
+    x: 1995
+    y: 694
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: I don't follow him that far.
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-5014976341943331266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b09aff2c-a815-4ae7-8950-b55215a3da42
+  m_EditorClassIdentifier: 
+  text: Thanks anyway.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1834
+    y: 311
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-4826700679035807453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: f486890a-07d4-4d0e-bbf5-9ffce1032259
+  m_EditorClassIdentifier: 
+  text: Hey a guy's gotta eat. Please?
+  children:
+  - 3536dd8a-2a71-4248-bb40-e42f0da7c7ff
+  - 14e37c8f-b64f-4728-84f1-1ba4f3e2143d
+  rect:
+    serializedVersion: 2
+    x: 1385
+    y: 211
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-4111218828012397701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 7a52d97e-747e-441f-a220-613514f5d1a4
+  m_EditorClassIdentifier: 
+  text: 'Dinner. Or change should do it. Have any to spare? '
+  children:
+  - 4f883bb4-cbb0-4c7e-9392-c03848cbb9fb
+  - f1d21ea4-4cef-4e86-a123-a16ae2e25f5a
+  - b963c844-1e0a-44f9-bfcc-7160c6634c59
+  - 099a46ac-ec71-45de-9c40-7b09db258b58
+  rect:
+    serializedVersion: 2
+    x: 478
+    y: 179
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-4031016861961964316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: c14e26bf-c344-4b67-b08a-99e4d27cfa48
+  m_EditorClassIdentifier: 
+  text: I'm trying to help Mrs. Noodle.
+  children:
+  - 9cc09766-f1bf-4490-b45a-e7ce9062fb97
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 439
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: What do you want?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Noodle Bandits
+        negate: 0
+    - or:
+      - predicate: QuestCompleted
+        parameters:
+        - Noodle Bandits
+        negate: 1
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-3210662835918509324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 24f0dd43-0edb-427b-a63e-4744c54bf8e0
+  m_EditorClassIdentifier: 
+  text: Need anything?
+  children:
+  - 7a52d97e-747e-441f-a220-613514f5d1a4
+  rect:
+    serializedVersion: 2
+    x: 261
+    y: 155
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: What do you want?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-2051832517947793999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: f1d21ea4-4cef-4e86-a123-a16ae2e25f5a
+  m_EditorClassIdentifier: 
+  text: Give money (10 credits)
+  children:
+  - b23e6c8e-1920-45c2-94f8-1948c2ededfb
+  rect:
+    serializedVersion: 2
+    x: 721
+    y: 152
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Anything to spare?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1737335801027243842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: c357d50a-7a63-4855-a531-accb0127ad36
+  m_EditorClassIdentifier: 
+  text: Looked like he was carrying something pretty heavy...
+  children:
+  - 9cb9cb7e-fedb-4356-a1b9-55c15b228950
+  rect:
+    serializedVersion: 2
+    x: 898
+    y: 621
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1621623959446466555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: d948aebd-a31d-4b3b-b9d9-d0d69bfee248
+  m_EditorClassIdentifier: 
+  text: You can go now.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: 506
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1495446047599310268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: ebdd5514-24a5-4274-9950-478f8e632a1b
+  m_EditorClassIdentifier: 
+  text: Piss off.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 479
+    y: 13
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 1
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &-1277480759303210215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 83f972f3-e7f2-4881-92f8-172e9cf160ff
+  m_EditorClassIdentifier: 
+  text: Hi bro. Right now just standing. Trippin'.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 485
+    y: 46
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 1
+  requiresFriendship: 1
+  isOpeningShop: 0
+--- !u!114 &-1056319964187378353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 4f883bb4-cbb0-4c7e-9392-c03848cbb9fb
+  m_EditorClassIdentifier: 
+  text: No change sorry.
+  children:
+  - 42ead5ad-6114-47ad-8e50-7ab80391d85e
+  rect:
+    serializedVersion: 2
+    x: 717
+    y: 36
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Anything to spare?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105480a04871f2042aa3f6eebadb1106, type: 3}
+  m_Name: NoodleBar_Clue_1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6293368589185701950}
+  - {fileID: 8448692292055364692}
+  - {fileID: -1495446047599310268}
+  - {fileID: -3210662835918509324}
+  - {fileID: -4031016861961964316}
+  - {fileID: -4111218828012397701}
+  - {fileID: -1056319964187378353}
+  - {fileID: -2051832517947793999}
+  - {fileID: 8561507666257781335}
+  - {fileID: 7634720880235684790}
+  - {fileID: -5603083989095813432}
+  - {fileID: -5214982161287260631}
+  - {fileID: 8756485981221313692}
+  - {fileID: 4321517777312787516}
+  - {fileID: -1621623959446466555}
+  - {fileID: -6447850033751097777}
+  - {fileID: -7908022833678544127}
+  - {fileID: -5944280734596374087}
+  - {fileID: -4826700679035807453}
+  - {fileID: -8050876577900590020}
+  - {fileID: -8094041020437816274}
+  - {fileID: -5014976341943331266}
+  - {fileID: 7151740189148289256}
+  - {fileID: -7944722202064537981}
+  - {fileID: -7391695914623009025}
+  - {fileID: -1737335801027243842}
+  - {fileID: -6413881689398391685}
+  - {fileID: -8332566774150878616}
+  - {fileID: 4480621861206719463}
+  - {fileID: -7406878228595528193}
+  - {fileID: -5952635035312589028}
+  - {fileID: 5051972656371751446}
+  - {fileID: -8612278964016529156}
+  - {fileID: -5210886455286073708}
+  - {fileID: -6061999766728860010}
+  - {fileID: -1277480759303210215}
+  newNodeOffset: {x: 220, y: -40}
+--- !u!114 &4321517777312787516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 9b678a62-c964-483d-9612-66d4aa53eb59
+  m_EditorClassIdentifier: 
+  text: 'You know I did hear about... ah I don''t know you. '
+  children:
+  - d948aebd-a31d-4b3b-b9d9-d0d69bfee248
+  rect:
+    serializedVersion: 2
+    x: 684
+    y: 498
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: Befriended
+        parameters: []
+        negate: 1
+  requiresFriendshipCheck: 1
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &4480621861206719463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 8fb8eecc-cdc5-4879-a676-0d1c3b21f8c6
+  m_EditorClassIdentifier: 
+  text: Thanks.
+  children:
+  - 645588f7-bfb6-4ba8-a5b5-497650ee1fef
+  rect:
+    serializedVersion: 2
+    x: 1561
+    y: 497
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &5051972656371751446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: dbf31bbe-c09c-4335-8ef8-394fa05183be
+  m_EditorClassIdentifier: 
+  text: 'Nope. I don''t follow him that far. '
+  children:
+  - d53914dc-7670-4d09-891e-f44c8bced096
+  - 79592ce3-f3bb-4a66-98be-f63dd67c299f
+  rect:
+    serializedVersion: 2
+    x: 1779
+    y: 629
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &7151740189148289256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 36bd8436-4800-45d5-9a02-4e8266bb9c7d
+  m_EditorClassIdentifier: 
+  text: Fuck yeah! Thanks bro. I feel like you and I connected.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1839
+    y: 56
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: MakeFriends
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &7634720880235684790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: b963c844-1e0a-44f9-bfcc-7160c6634c59
+  m_EditorClassIdentifier: 
+  text: Give noodles.
+  children:
+  - 3f489fd3-ae9e-4c94-82c3-cbdcf65583d7
+  rect:
+    serializedVersion: 2
+    x: 723
+    y: 266
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: Anything to spare?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItem
+        parameters:
+        - cb6d8aca-7879-4425-a3be-5ed0363964fe
+        negate: 0
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &8448692292055364692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 75c3c929-308e-4ab6-aa43-02c64ac4eb1c
+  m_EditorClassIdentifier: 
+  text: What are you doing?
+  children:
+  - ebdd5514-24a5-4274-9950-478f8e632a1b
+  - 83f972f3-e7f2-4881-92f8-172e9cf160ff
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 47
+    width: 200
+    height: 115
+  isPlayerSpeaking: 1
+  simpleQuestion: What do you want?
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &8561507666257781335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 42ead5ad-6114-47ad-8e50-7ab80391d85e
+  m_EditorClassIdentifier: 
+  text: Fine.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 936
+    y: 18
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0
+--- !u!114 &8756485981221313692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbde6a898e62f04495bf73c23523a94, type: 3}
+  m_Name: 9cc09766-f1bf-4490-b45a-e7ce9062fb97
+  m_EditorClassIdentifier: 
+  text: 'Ah yes. I hear her yelling every now and then. '
+  children:
+  - 9b678a62-c964-483d-9612-66d4aa53eb59
+  - 24eda8eb-45a9-4463-b63e-4a4da8d28a54
+  rect:
+    serializedVersion: 2
+    x: 459
+    y: 552
+    width: 200
+    height: 115
+  isPlayerSpeaking: 0
+  simpleQuestion: 
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  requiresFriendshipCheck: 0
+  requiresFriendship: 0
+  isOpeningShop: 0

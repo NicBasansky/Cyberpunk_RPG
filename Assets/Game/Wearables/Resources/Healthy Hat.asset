@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ed4329de88b65438da15b30dd7d04d, type: 3}
+  m_Name: Healthy Hat
+  m_EditorClassIdentifier: 
+  itemID: 248ba7c3-22ea-4522-817f-01f516365197
+  displayName: Healthy Hat
+  description: Boosts max health by 20
+  icon: {fileID: 21300000, guid: 803e43587fdde8c4c87bdb4ab6605f50, type: 3}
+  pickup: {fileID: 2245074047910991254, guid: 45636c0466192d945a41d8905e814ce6, type: 3}
+  stackable: 0
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 0
+    value: 20
+  percentageModifiers: []
