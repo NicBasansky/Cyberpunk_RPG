@@ -4062,6 +4062,10 @@ PrefabInstance:
       propertyPath: messageTransform
       value: 
       objectReference: {fileID: 8467177532574006982}
+    - target: {fileID: 6390913468641869694, guid: 9f0565749f6794b48838b61a4e39b5cb, type: 3}
+      propertyPath: inventorySize
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9099524436484552389, guid: 9f0565749f6794b48838b61a4e39b5cb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9f0565749f6794b48838b61a4e39b5cb, type: 3}

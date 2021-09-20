@@ -21,6 +21,9 @@ namespace RPG.UI.Shops
         [SerializeField] TextMeshProUGUI totalTransactionText;
         [SerializeField] TextMeshProUGUI moneyText;
         [SerializeField] Button confirmButton;
+        [SerializeField] Button switchButton;
+        [SerializeField] TextMeshProUGUI buyButtonText;
+        [SerializeField] TextMeshProUGUI switchButtonText;
         [SerializeField] Color insufficientFundsTextColour;
         Color originalTotalTextColour;
         Wallet playerWallet;
@@ -35,6 +38,7 @@ namespace RPG.UI.Shops
             playerWallet.onMoneyUpdated += UpdateMoneyUI;
 
             confirmButton.onClick.AddListener(ConfirmPurchase);
+            switchButton.onClick.AddListener(SwitchMode);
         }
 
         void Start()
@@ -55,9 +59,16 @@ namespace RPG.UI.Shops
             // TODO make the shop open from a dialogue trigger and fix the cursor
             // conflict within the aiConversant
             uiParent.SetActive(currentShop != null);
+
             if (currentShop == null)
             {                             
                 return;
+            }
+
+            foreach (FilterButtonUI button in GetComponentsInChildren<FilterButtonUI>())
+            {
+                button.SetShop(currentShop);
+                
             }
 
             currentShop.onUpdateUI += RefreshUIContents;
@@ -66,12 +77,18 @@ namespace RPG.UI.Shops
             RefreshUIContents();
         }
 
+        public void SwitchMode()
+        {
+            currentShop.SelectMode(!currentShop.IsBuying());
+        }
+
         private void SetUpShopName()
         {
             titleText.text = currentShop.GetShopName();
             flavourText.text = currentShop.GetShopFlavourText();
 
         }
+
 
         private void RefreshUIContents()
         {
@@ -87,10 +104,17 @@ namespace RPG.UI.Shops
                 rowUI.SetShopItem(item, currentShop);
             }
 
+            foreach (FilterButtonUI button in GetComponentsInChildren<FilterButtonUI>())
+            {
+                button.RefreshUI();
+            }
+
             totalTransactionText.text = $"{currentShop.GetTransactionTotal():N0}";
             totalTransactionText.color = currentShop.HasSufficientFunds() ? originalTotalTextColour : insufficientFundsTextColour;
             confirmButton.interactable = currentShop.CanTransact();
 
+            buyButtonText.text = currentShop.IsBuying() ? "Buy" : "Sell";
+            switchButtonText.text = currentShop.IsBuying() ? "Switch To Selling" : "Switch To Buying";
         }
 
         public void ConfirmPurchase()

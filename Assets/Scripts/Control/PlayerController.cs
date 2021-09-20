@@ -44,7 +44,6 @@ namespace RPG.Control
 
         private void Update()
         {
-            CheckSpecialAbilityKeys();
             
             if (InteractWithUI()) return;
 
@@ -53,6 +52,7 @@ namespace RPG.Control
                 SetCursor(CursorType.None);
                 return;
             }
+            CheckSpecialAbilityKeys();
 
             if (InteractWithComponent()) return;
             if (InteractWithMovement()) return;
@@ -187,30 +187,13 @@ namespace RPG.Control
 
         private void CheckSpecialAbilityKeys()
         {
-            var actionStore = GetComponent<ActionStore>();
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            for (int i = 0; i < 6; i++)
             {
-                actionStore.Use(0, gameObject);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                actionStore.Use(1, gameObject);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha3))
-            {
-                actionStore.Use(2, gameObject);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                actionStore.Use(3, gameObject);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha5))
-            {
-                actionStore.Use(4, gameObject);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha6))
-            {
-                actionStore.Use(5, gameObject);
+                if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+                {
+                    GetComponent<ActionStore>().Use(i, gameObject);
+                }
+
             }
         }
     }

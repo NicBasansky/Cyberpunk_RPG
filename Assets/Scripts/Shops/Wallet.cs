@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using GameDevTV.Saving;
 
 namespace RPG.Inventories
 {
-    public class Wallet : MonoBehaviour
+    public class Wallet : MonoBehaviour, ISaveable
     {
         [SerializeField] int money = 100;
 
@@ -30,6 +31,17 @@ namespace RPG.Inventories
         public int GetMoneyAmount()
         {
             return money;
+        }
+
+        public object CaptureState()
+        {
+            return GetMoneyAmount();
+        }
+
+        public void RestoreState(object state)
+        {
+            money = (int)state;
+            
         }
     }
 }
