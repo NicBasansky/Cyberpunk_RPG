@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using GameDevTV.Inventories;
 using UnityEngine;
+using RPG.Abilities.Filters;
+using RPG.Abilities.Effects;
+
 
 namespace RPG.Abilities
 {
@@ -8,20 +11,33 @@ namespace RPG.Abilities
     public class Ability : ActionItem
     {
         [SerializeField] TargetingStrategy targetingStrategy;
+        [SerializeField] FilteringStrategy[] filterStrategies;
+        [SerializeField] EffectStrategy[] effectStrategies;
 
         public override void Use(GameObject user)
         {
-            targetingStrategy.StartTargeting(user, TargetAcquired); 
+            AbilityData data = new AbilityData(user);
+            targetingStrategy.StartTargeting(data, 
+                    () => TargetAcquired(data));
+
+        }
+        
+        private void TargetAcquired(AbilityData data)
+        {
+            foreach(var filterStrategy in filterStrategies)
+            {
+                data.SetTargets(filterStrategy.FilterTargets(data.GetTargets()));
+            }
+
+            foreach(var effect in effectStrategies)
+            {
+                effect.ApplyEffects(data, OnEffectFinished);
+            }      
         }
 
-        
-        private void TargetAcquired(IEnumerable<GameObject> targets)
+        private void OnEffectFinished()
         {
-            foreach (var target in targets)
-            {
-                Debug.Log("Target " + target.name + " acquired");
 
-            }
         }
     }
 }

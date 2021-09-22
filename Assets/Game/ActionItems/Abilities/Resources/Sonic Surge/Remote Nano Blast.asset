@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 797c7a681c971f044a6786a1c5ec8551, type: 3}
-  m_Name: Sonic Surge
+  m_Name: Remote Nano Blast
   m_EditorClassIdentifier: 
   itemID: bd752945-f87b-4caf-9edb-4dd3224f32c3
   displayName: Sonic Surge
@@ -22,3 +22,7 @@ MonoBehaviour:
   itemCategory: 3
   consumable: 0
   targetingStrategy: {fileID: 11400000, guid: ca33473376d2d8a4ea86db4b0cbbfc79, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: 9717457dd1ab41948a0ec854c65d5127, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: f84e31665adacca459b67deffa938f72, type: 2}

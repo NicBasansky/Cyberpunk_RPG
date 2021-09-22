@@ -2,13 +2,17 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DemoTargeting", menuName = "RPG/Abilities/Targeting/Demo", order = 0)]
-public class DemoTargeting : TargetingStrategy
+namespace RPG.Abilities
 {
-    public override void StartTargeting(GameObject user, Action<IEnumerable<GameObject>> finished)
+    [CreateAssetMenu(fileName = "DemoTargeting", menuName = "RPG/Abilities/Targeting/Demo", order = 0)]
+    public class DemoTargeting : TargetingStrategy
     {
-        Debug.Log("Demo targeting strategy has begun");
-        finished(null);
+        public override void StartTargeting(AbilityData data, Action finished)
+        {
+            Debug.Log("Demo targeting strategy has begun");
+            finished();
 
+        }
     }
+
 }

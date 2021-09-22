@@ -85,6 +85,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -697675337159278195, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 1371159948701221649, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: maxSpeed
       value: 3.863
@@ -146,6 +150,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5624485288175022933, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3673434982534268050}
+    - target: {fileID: 5624485288175022933, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1019541870748430001}
@@ -168,6 +176,10 @@ PrefabInstance:
     - target: {fileID: 5624485288175022933, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5624485288175022933, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Spawn
       objectReference: {fileID: 0}
     - target: {fileID: 5624485288175022933, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -207,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5955598522603285223, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5957543905967116667, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: m_RootOrder
@@ -265,9 +277,17 @@ PrefabInstance:
       propertyPath: m_CullingMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6176385702728753223, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 7930221960618522137, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
       propertyPath: m_RootOrder
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049266047038277669, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
@@ -302,6 +322,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5957682232481371185, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
   m_PrefabInstance: {fileID: 5227299031820191470}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3673434982534268050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8823028176257024636, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
+  m_PrefabInstance: {fileID: 5227299031820191470}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a7eb628a584ec4f9dd53802c3f945e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &6869800964872816804 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 1719661828046556746, guid: 2f46d065de9923940a2b0966304ffb2a, type: 3}
@@ -333,7 +364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7160347263412938916, guid: 79ea9b52aa08dda40a2b0b57c0d4ff5b, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7160347263412938916, guid: 79ea9b52aa08dda40a2b0b57c0d4ff5b, type: 3}
       propertyPath: m_LocalPosition.x

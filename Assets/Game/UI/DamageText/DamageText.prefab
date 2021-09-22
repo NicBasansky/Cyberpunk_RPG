@@ -64,6 +64,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -103,9 +104,10 @@ Animation:
   m_GameObject: {fileID: 2419714019937038882}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: e1ff41f8340f37144aefa617a35c005c, type: 2}
+  m_Animation: {fileID: 7400000, guid: 839f45d7ff3e83241b88b09d4e925034, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: e1ff41f8340f37144aefa617a35c005c, type: 2}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 839f45d7ff3e83241b88b09d4e925034, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -262,6 +264,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
 --- !u!114 &6239443768234991404
 MonoBehaviour:
   m_ObjectHideFlags: 0
