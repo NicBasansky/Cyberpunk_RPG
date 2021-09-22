@@ -33,6 +33,7 @@ namespace RPG.Control
         Mover mover;
         Fighter fighter;
         Health health;
+        ActionStore actionStore;
 
 
         private void Awake()
@@ -40,6 +41,7 @@ namespace RPG.Control
             mover = GetComponent<Mover>();
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
+            actionStore = GetComponent<ActionStore>();
         }
 
         private void Update()
@@ -166,7 +168,7 @@ namespace RPG.Control
 
 
 
-        private static Ray GetMouseRay()
+        public static Ray GetMouseRay()
         {
             return Camera.main.ScreenPointToRay(Input.mousePosition);
         }
@@ -191,7 +193,7 @@ namespace RPG.Control
             {
                 if (Input.GetKeyDown(KeyCode.Alpha1 + i))
                 {
-                    GetComponent<ActionStore>().Use(i, gameObject);
+                    actionStore.Use(i, gameObject);
                 }
 
             }

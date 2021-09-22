@@ -795,7 +795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Size
-      value: 0.5692923
+      value: 0.84501255
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Value
@@ -2781,6 +2781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraMainBrain
       objectReference: {fileID: 0}
+    - target: {fileID: 6377779454049529312, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6377779454049529314, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
       propertyPath: m_CustomBlends
       value: 
@@ -2795,15 +2799,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6377779454049529315, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.68018
+      value: 9.680181
       objectReference: {fileID: 0}
     - target: {fileID: 6377779454049529315, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.9184713
+      value: 10.097473
       objectReference: {fileID: 0}
     - target: {fileID: 6377779454049529315, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.605555
+      value: -31.605556
       objectReference: {fileID: 0}
     - target: {fileID: 6377779454049529315, guid: 1de3cf744f0e0394d9f4af38d69ec0ea, type: 3}
       propertyPath: m_LocalRotation.w

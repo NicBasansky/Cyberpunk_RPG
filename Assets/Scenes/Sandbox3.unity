@@ -235,7 +235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &178889784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 310131353}
   - component: {fileID: 310131352}
   - component: {fileID: 310131351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1894,10 +1894,10 @@ PrefabInstance:
     - target: {fileID: 1648526522162532078, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 9f14d3ff2f0519b4ea92261abb2854b8, type: 2}
+      objectReference: {fileID: 11400000, guid: f177e0f47619cdd4294750187bfcb27b, type: 2}
     - target: {fileID: 1648526522162532078, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: number
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1948164052986122789, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: m_RootOrder
