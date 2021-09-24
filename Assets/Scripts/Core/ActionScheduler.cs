@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ namespace RPG.Core
     public class ActionScheduler : MonoBehaviour
     {
         IAction currentAction;
+        bool blockAction = false;
 
         public void StartAction(IAction action)
         {
@@ -23,5 +25,6 @@ namespace RPG.Core
         {
             StartAction(null);
         }
+
     }
 }

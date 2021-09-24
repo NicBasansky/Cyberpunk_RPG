@@ -22,6 +22,8 @@ namespace RPG.Movement
         [SerializeField] float maxPathLength = 40f;
         [SerializeField] float speakerFacingDist = 2f;
 
+        bool freezeMovement = false;
+
         private void Awake()
         {
             agent = GetComponent<NavMeshAgent>();
@@ -51,6 +53,8 @@ namespace RPG.Movement
 
         public bool CanMoveTo(Vector3 destination)
         {
+            if (freezeMovement) return false;
+
             // if there is no way to access this piece of navMesh then return false
             NavMeshPath path = new NavMeshPath();
             bool hasPath = NavMesh.CalculatePath(
@@ -121,6 +125,7 @@ namespace RPG.Movement
         {                            // this currently saves their location as we enter a portal
             return new SerializableVector3(transform.position);
         }
+
 
         public void RestoreState(object state) // note: if a char. does NOT have a nav Mesh agent active, it's 
                         //position will not be saved if it differs from their initial scene placement

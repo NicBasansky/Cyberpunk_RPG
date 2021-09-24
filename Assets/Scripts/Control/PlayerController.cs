@@ -29,6 +29,7 @@ namespace RPG.Control
         [SerializeField] CursorDetails[] cursorDetails = null;
 
         bool isDraggingUI = false;
+        bool shouldFreeze = false;
 
         Mover mover;
         Fighter fighter;
@@ -44,6 +45,8 @@ namespace RPG.Control
             actionStore = GetComponent<ActionStore>();
         }
 
+        
+
         private void Update()
         {
             
@@ -54,6 +57,9 @@ namespace RPG.Control
                 SetCursor(CursorType.None);
                 return;
             }
+
+            if (shouldFreeze) return;
+
             CheckSpecialAbilityKeys();
 
             if (InteractWithComponent()) return;

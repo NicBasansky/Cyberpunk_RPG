@@ -39,7 +39,7 @@ namespace RPG.Abilities
             }
             targetingInstancePrefab.transform.localScale = new Vector3(effectRadius * 2, 1, effectRadius * 2);
 
-            while (true)
+            while (!data.IsCancelled())
             {
                 Cursor.SetCursor(cursorTexture, cursorHotSpot, CursorMode.Auto);
                 Ray ray = PlayerController.GetMouseRay();
@@ -56,18 +56,17 @@ namespace RPG.Abilities
                         // this is a more compact way of writing the above code
                         // absorb the whole mouse click to not interfere with player controller movement
                         yield return new WaitWhile(() => Input.GetMouseButton(0));
-
-                        targetingInstancePrefab.SetActive(false);
-                        controller.enabled = true;
-
-                        // need to pass in the list of targets into finished()
                         data.SetTargets(GetGameObjectsInRadius(hit.point));
-                        finished();
+                        data.SetTargetedPoint(hit.point);
                         break;
                     }
                 }
                 yield return null;
             }
+            // These get called regardless if the ability has been cancelled or not
+            targetingInstancePrefab.SetActive(false);
+            controller.enabled = true;
+            finished();
         }
 
         private IEnumerable<GameObject> GetGameObjectsInRadius(Vector3 origin)

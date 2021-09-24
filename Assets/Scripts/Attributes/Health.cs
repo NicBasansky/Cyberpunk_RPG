@@ -115,6 +115,10 @@ namespace RPG.Attributes
             isDead = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
             GetComponent<Animator>().SetTrigger("Die");
+
+            // Prevents the player from falling through the floor on death for some reason
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            
             if (!gameObject.CompareTag("Player"))
             {
                 GetComponent<CapsuleCollider>().isTrigger = true;

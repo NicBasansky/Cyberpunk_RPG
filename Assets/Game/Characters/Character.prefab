@@ -2876,6 +2876,7 @@ GameObject:
   - component: {fileID: 5624485288175022933}
   - component: {fileID: 3964905361048527047}
   - component: {fileID: 5407711859901126694}
+  - component: {fileID: 1506405739136273117}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -3080,6 +3081,18 @@ MonoBehaviour:
   progression: {fileID: 11400000, guid: c993a0efb5929174c98b80d65669275d, type: 2}
   levelUpParticles: {fileID: 0}
   shouldUseModifiers: 0
+--- !u!114 &1506405739136273117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955598522603285223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c1ecac4f3081d499ac775b1c746eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5955611570857334771
 GameObject:
   m_ObjectHideFlags: 0

@@ -571,6 +571,10 @@ PrefabInstance:
       value: SM_Env_Road_Bare_Half_01_SF
       objectReference: {fileID: 0}
     - target: {fileID: 1761206186323928, guid: 0ec46fb236c42504698f8f412026aac1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761206186323928, guid: 0ec46fb236c42504698f8f412026aac1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4953,12 +4957,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 98556198281272951, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: m_Name
-      value: HatPickupSpawner
+      value: NanoBlastSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 1648526522162532078, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 94e47d5f0bf85a64b86f64e202823c26, type: 2}
+      objectReference: {fileID: 11400000, guid: f177e0f47619cdd4294750187bfcb27b, type: 2}
     - target: {fileID: 1948164052986122789, guid: 859f1d03c293c7c41bea81d9162b62d7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13825,7 +13829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1378031197774766, guid: be3d7781242d5f34bbc4a55e5066da00, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1378031197774766, guid: be3d7781242d5f34bbc4a55e5066da00, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14477,7 +14481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1753513608661076, guid: 9e9f8f40d066f5a4791df15af8ea53ee, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1753513608661076, guid: 9e9f8f40d066f5a4791df15af8ea53ee, type: 3}
       propertyPath: m_StaticEditorFlags
