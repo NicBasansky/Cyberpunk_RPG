@@ -32,7 +32,11 @@ namespace RPG.Dialogue
             currentNode = currentDialogue.GetRootNode();
             currentConversant = newConversant;
             TriggerEnterAction();
-            onConversationUpdated();
+            if (onConversationUpdated != null)
+            {
+                onConversationUpdated();
+
+            }
             
             
         }

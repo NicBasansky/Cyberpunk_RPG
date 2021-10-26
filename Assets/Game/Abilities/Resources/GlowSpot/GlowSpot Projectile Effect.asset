@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7ab9a083c32544c8f6e2ad35876ca9, type: 3}
+  m_Name: GlowSpot Projectile Effect
+  m_EditorClassIdentifier: 
+  projectileToSpawn: {fileID: 6231658465337993951, guid: 0181af089bc8e6a429abd4e167548698, type: 3}
+  damage: 20
+  useTargetPoint: 1

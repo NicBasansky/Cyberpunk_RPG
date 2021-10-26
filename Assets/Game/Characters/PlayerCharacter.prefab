@@ -36,8 +36,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbde2f88b95b5a846a39571df1cd62da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: Holly Hologram Ho
+  playerName: Lexana
   maxDistFromSpeakers: 20
+--- !u!114 &2879437225652593853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3138403040277872117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee65be396116d354dac690a4ace9c09c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonusConfig:
+  - trait: 0
+    stat: 3
+    additiveBonusPerPoint: 0
+    percentageBonusPerPoint: 5
+  - trait: 3
+    stat: 0
+    additiveBonusPerPoint: 0
+    percentageBonusPerPoint: 5
+  - trait: 2
+    stat: 4
+    additiveBonusPerPoint: 0
+    percentageBonusPerPoint: 5
+  - trait: 2
+    stat: 5
+    additiveBonusPerPoint: 0
+    percentageBonusPerPoint: 5
 --- !u!114 &3022925924808464611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,7 +131,7 @@ MonoBehaviour:
     hotspot: {x: 0, y: 0}
   - cursorType: 3
     cursorImage: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
-    hotspot: {x: 12, y: -5}
+    hotspot: {x: 12, y: 6}
   - cursorType: 4
     cursorImage: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
     hotspot: {x: 0, y: 0}

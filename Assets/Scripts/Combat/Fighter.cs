@@ -141,8 +141,6 @@ namespace RPG.Combat
             if (target == null) return;
             float damage = baseStats.GetStat(Stat.Damage);
 
-
-
             if (currentWeaponConfig.HasProjectile())
             {
                 currentWeaponConfig.LaunchProjectile(rightHandTransform, leftHandTransform, target, this.gameObject, damage);
@@ -158,9 +156,16 @@ namespace RPG.Combat
             }
         }
 
-        private bool IsInWeaponRange(Transform targetTransform)
+        public Transform GetHandTransform(bool isRightHanded)
         {
-            return Vector3.Distance(transform.position, targetTransform.position) <= currentWeaponConfig.GetWeaponRange();
+            if (isRightHanded)
+            {
+                return rightHandTransform;
+            }
+            else
+            {
+                return leftHandTransform;
+            }
         }
 
         public Health GetTarget()
@@ -173,6 +178,11 @@ namespace RPG.Combat
             {
                 return null;
             }
+        }
+
+        private bool IsInWeaponRange(Transform targetTransform)
+        {
+            return Vector3.Distance(transform.position, targetTransform.position) <= currentWeaponConfig.GetWeaponRange();
         }
 
         public void Cancel()

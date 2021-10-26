@@ -18,4 +18,4 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 64
-  targetingPrefab: {fileID: 7275358472086009633, guid: 1985c21c7b3805a41969f062188d604b, type: 3}
+  targetingPrefab: {fileID: 7275358472086009633, guid: 075de57848f49b7459e6f837c1845ff3, type: 3}

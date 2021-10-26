@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797c7a681c971f044a6786a1c5ec8551, type: 3}
+  m_Name: HealthDrug
+  m_EditorClassIdentifier: 
+  itemID: c0b32add-99d9-448d-b712-a3cefa6cafc4
+  displayName: Health Drug
+  description: Take drugs for your health.
+  icon: {fileID: 21300000, guid: 4613b7421f0a05149ade635e9675d314, type: 3}
+  pickup: {fileID: 2245074047910991254, guid: 45636c0466192d945a41d8905e814ce6, type: 3}
+  stackable: 1
+  basePrice: 30
+  itemCategory: 4
+  consumable: 1
+  targetingStrategy: {fileID: 11400000, guid: 3d77863a4c1eca74b8e8bbe418f455d3, type: 2}
+  filterStrategies: []
+  effectStrategies:
+  - {fileID: 11400000, guid: bf84b9e0c02d5e74cbbe25f33a01f83b, type: 2}
+  - {fileID: 11400000, guid: 2bd2f572fcd1ee14ab5694bdfe645e7c, type: 2}
+  coolDownSeconds: 3
+  manaCost: 0

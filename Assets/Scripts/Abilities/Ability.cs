@@ -43,7 +43,7 @@ namespace RPG.Abilities
         private void TargetAcquired(AbilityData data, Mana mana)
         {
             if (data.IsCancelled()) return;
-            
+
             if(!mana.UseMana(manaCost)) return;
 
             CooldownStore cooldownStore = data.GetUser().GetComponent<CooldownStore>();

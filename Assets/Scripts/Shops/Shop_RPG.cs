@@ -29,6 +29,9 @@ namespace RPG.Shops_RPG
         [Tooltip("Percentage of selling price will vendor buy back item")]
         [Range(0, 100)]
         [SerializeField] float sellingDiscount = 60;
+        [Tooltip("The maximum discount a shopkeeper will provide from discounts generated from a high Charisma stat")]
+        [Range(0, 100)]
+        [SerializeField] float maximumBarterDiscount = 80f;
         private ItemCategory currentCategoryFilter = ItemCategory.None;
         private bool isBuying = true;
         PlayerShopper_RPG playerShopper = null;
@@ -293,7 +296,7 @@ namespace RPG.Shops_RPG
             {       
                 if (!prices.ContainsKey(config.item))
                 {
-                    prices[config.item] = config.item.GetBasePrice();
+                    prices[config.item] = Mathf.FloorToInt(config.item.GetBasePrice() * GetBarterDiscount());
                 }
                 if (isBuying)
                 {
@@ -308,7 +311,13 @@ namespace RPG.Shops_RPG
             return prices;
         }
 
-        // TODO
+        private float GetBarterDiscount()
+        {
+            BaseStats baseStats = playerShopper.GetComponent<BaseStats>();
+            float discount = baseStats.GetStat(Stat.BuyingDiscountPercentage);
+            return (1 - Mathf.Min(discount, maximumBarterDiscount) / 100);
+        }
+
         private Dictionary<InventoryItem, int> GetAvailabilities()
         {
             Dictionary<InventoryItem, int> availabilities = new Dictionary<InventoryItem, int>();
@@ -430,6 +439,7 @@ namespace RPG.Shops_RPG
             }
             
         }
+
     }
 
 }

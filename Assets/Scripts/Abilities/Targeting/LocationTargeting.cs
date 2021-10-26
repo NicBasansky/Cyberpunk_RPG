@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 
 // NOTE! This currently is only effective on objects in the layerMask, ie the Terrain layer only
-namespace RPG.Abilities
+namespace RPG.Abilities.Targeting
 {
     [CreateAssetMenu(fileName = "Location Targeting", menuName = "RPG/Abilities/Targeting/Location", order = 0)]
     public class LocationTargeting : TargetingStrategy

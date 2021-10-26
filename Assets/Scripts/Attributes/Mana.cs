@@ -13,12 +13,9 @@ namespace RPG.Attributes
         void Awake()
         {
             baseStats = GetComponent<BaseStats>();
-        }
-        void Start()
-        {
             mana = new LazyValue<float>(GetMaxMana);
         }
-
+    
         private void Update() 
         {
             if (mana.value < GetMaxMana())
@@ -63,7 +60,7 @@ namespace RPG.Attributes
 
         public void RestoreState(object state)
         {
-            mana.value = (float)state;
+            mana.value = (float) state;
         }
     }
 }
